@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "525129874841",
+    "firebase_url": "https://chatappsud.firebaseio.com",
+    "project_id": "chatappsud",
+    "storage_bucket": "chatappsud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525129874841:android:6e9a91a1279a428d",
+        "android_client_info": {
+          "package_name": "actiknow.com.chatappsud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525129874841-r8fl17c7kl8db5a7rcjhdm20m7ejp9bm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIrYLSPf-AqH2AI7SaSVm-KAFwRbG7lfI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525129874841:android:915a3a0302c7e4f0",
+        "android_client_info": {
+          "package_name": "actiknow.com.resultier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525129874841-paljdh5fk33e7nlraj193j3jol5qmjc6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "actiknow.com.resultier",
+            "certificate_hash": "363994DB927082F24912891D22246809C6CEF94F"
+          }
+        },
+        {
+          "client_id": "525129874841-r8fl17c7kl8db5a7rcjhdm20m7ejp9bm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIrYLSPf-AqH2AI7SaSVm-KAFwRbG7lfI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525129874841-r8fl17c7kl8db5a7rcjhdm20m7ejp9bm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

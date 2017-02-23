@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_background"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Mobile"
+            android:gravity="center"
+            android:textColor="@color/text_color_white"
+            android:textStyle="bold"
+            android:textSize="24dp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/etMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile  Number"
+            android:layout_marginTop="20dp"
+            android:inputType="textCapWords"
+            android:padding="12dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/text_color_white"
+            android:background="@drawable/rounded_edittext"
+            android:textColorHint="@color/text_color_white"
+            android:ems="10"
+            android:maxLength="10"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please wait while we detect otp"
+            android:textSize="18dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textColor="@color/text_color_red"
+            android:id="@+id/tvDetectOTP"
+            />
+
+
+        <EditText
+            android:id="@+id/etOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="OTP"
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textCapWords"
+            android:ems="6"
+            android:maxLength="6"
+            android:padding="12dp"
+            android:textColor="@color/text_color_white"
+            android:background="@drawable/rounded_edittext"
+            android:textColorHint="@color/text_color_white"
+           />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvResendOtp"
+            android:text="Resend OTP in 00:12"
+            android:textSize="18dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textColor="@color/text_color_white"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:text="Send Sms Code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/text_color_white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/btSendSMSCode" />
+
+    <Button
+        android:text="Verify Otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/text_color_white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/btVerify"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
